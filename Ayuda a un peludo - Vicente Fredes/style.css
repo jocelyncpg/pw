@@ -1,0 +1,35 @@
+body {
+    margin: 60px;
+    background-color: white;  
+    text-align: center;       
+}
+
+h1, h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+p, a, ul {
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    text-align: left;
+}
+
+li {
+    padding-right: 20px;
+}
+
+.container {
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 20px;
+}
+
+.container img {
+    margin-right: 30px;
+    vertical-align: middle;
+}
+
+.container-fluid header nav ul li a{
+    color: orange !important;
+}
